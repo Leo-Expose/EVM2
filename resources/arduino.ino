@@ -29,7 +29,7 @@ void loop() {
       delay(50); // Debounce delay
       if (digitalRead(buttonPins[i]) == LOW) {
         votes[i]++;
-        EEPROM.write(i, votes[i]);
+        EEPROM.update(i, votes[i]);
         Serial.print("Vote: ");
         Serial.println(i);
         delay(5000); // Prevent multiple counts from a single press
