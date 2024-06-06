@@ -15,7 +15,7 @@ This is the final version of my EVM Project
 
 1. **Clone the repository and navigate to the project directory:**
     ```sh
-    git clone [<repository_url>](https://github.com/Leo-Expose/EVM2.git)
+    git clone https://github.com/Leo-Expose/EVM2.git
     cd EVM2
     ```
 
