@@ -1,0 +1,7 @@
+flask
+pyserial
+python-docx
+tkinter
+docx
+threading
+serial
