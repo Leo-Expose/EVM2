@@ -17,8 +17,8 @@ config_file_path = os.path.join('resources', 'config.json')
 with open(config_file_path) as config_file:
     config = json.load(config_file)
 
-SERIAL_PORT = config['SERIAL_PORT'] #9600
-BAUD_RATE = config['BAUD_RATE']
+SERIAL_PORT = config['SERIAL_PORT'] # COM 4???
+BAUD_RATE = config['9600']
 BACKUP_FILE = os.path.expanduser(config['BACKUP_FILE'])
 RESULT_FILE = os.path.expanduser(config['RESULT_FILE'])
 DOC_FILE = os.path.expanduser(config['DOC_FILE'])
