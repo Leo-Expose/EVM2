@@ -7,7 +7,7 @@ This is the final version of my EVM Project
 
 ## Requirements
 
-- Python 3.6 or later
+- Python 3.7 or later (3.11 is preferred)
 - Arduino board
 - Required Python libraries (listed in `resources/requirements.txt`)
 
