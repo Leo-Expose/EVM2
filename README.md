@@ -2,7 +2,8 @@
 
 
 ## Description
-This project is an electronic voting machine (EVM) system implemented using Arduino and Python. It includes a GUI for starting, pausing, and stopping the voting process, a web server for displaying live results, and functionality for exporting the final results to a document. 
+This project is an electronic voting machine (EVM) system implemented using Arduino and Python. It includes a GUI for starting, pausing, and stopping the voting process, a web server for displaying live results, and functionality for exporting the final results to a document. This code was written in Notepad as VS Code is for beginners
+
 This is the final version of my EVM Project
 
 ## Requirements
