@@ -15,8 +15,8 @@ This is the final version of my EVM Project
 
 1. **Clone the repository and navigate to the project directory:**
     ```sh
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone [<repository_url>](https://github.com/Leo-Expose/EVM2.git)
+    cd EVM2
     ```
 
 2. **Configure your network interface to use the IP address `192.168.1.1`:**
