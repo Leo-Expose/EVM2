@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+        .container { max-width: 600px; margin: 50px auto; padding: 20px; background-color: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        p { text-align: center; font-size: 1.2em; color: red; }
+        ul { list-style-type: none; padding: 0; }
+        li { padding: 10px; border-bottom: 1px solid #ddd; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Voting Results</h1>
+        <p>Latest Vote: {{ last_vote }}</p>
+        <ul>
+            {% for candidate, count in votes.items() %}
+                <li>{{ candidate }}: {{ count }} votes</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
